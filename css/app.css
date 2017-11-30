@@ -1,0 +1,179 @@
+/*==============================================================================
+
+		Name: style.css
+		Description: 
+		Author: Thomas Gull
+		Author URI: gulldesign.ch
+		Version: v2.5
+		Release: 2017-08-01
+		License: Public Licence
+
+		Color-Declination:
+		default-blue  #00a1e0;  rgb(0, 161, 224);
+		hover-blue    #0074a9;  rgb(0, 116, 169);
+		light-grey    #e0e0e0;  rgb(224, 224, 224);
+		promo pink    #d16aa7;  rgb(209, 106, 167);
+
+\1f1ee italian emoji
+==============================================================================*/
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+a {
+	color: rgba(110, 35, 85, 1);
+	font-weight: 600;
+}
+
+a:hover {
+	color: rgba(120, 45, 95, 1);
+	text-decoration: underline;
+}
+
+address {
+	font-style: normal;
+}
+
+section.test {
+	background: rgba(110, 35, 85, 1);
+	color: #fff;
+}
+
+.title, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merriweather', serif;
+	color: rgba(110, 35, 85, 1);
+}
+
+h1 {
+	font-size: 1.9375rem;
+}
+
+.grapevineRight {
+	width: 50%;
+	height: 50%;
+	width: 300px;
+	height: 300px;
+	background: url("../img/cavatappo_weinranke_2.png") no-repeat top right;
+	background-size: 100%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.grapevineLeft {
+	width: 50%;
+	height: 50%;
+	width: 370px;
+	height: 280px;
+	background: url("../img/cavatappo_weinranke_1.png") no-repeat top left;
+	background-size: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.flags {
+	height: 45px;
+	margin-right: 2%;	
+}
+
+.eventImage {
+	float: right;
+    padding: 8px 0 8px 12px;
+}
+
+/*@media print, screen and (min-width: 40em) {
+  h1, .h1 {
+    font-size: 3rem; }
+  }*/
+
+section.bgPrimary h1,
+section.bgPrimary h2,
+section.bgPrimary h3,
+section.bgPrimary h4,
+section.bgPrimary h5,
+section.bgPrimary h6 {
+	color: #fff;
+}
+
+/*----------------------------------------------------------------------------
+	HEADER
+----------------------------------------------------------------------------*/
+.logo {
+	margin: 4% auto 4% auto;
+    display: block;
+}
+
+/*.logoFooter {
+	position: absolute;
+	bottom: 1%;
+}*/
+
+/*----------------------------------------------------------------------------
+	SECTION
+----------------------------------------------------------------------------*/
+section {
+	position: relative;
+	padding: 20px 0;
+	margin-bottom: 2%;
+}
+section.intro {}
+section.opening {}
+section.events {}
+
+
+
+.bgPrimary {
+	background: rgba(110, 35, 85, 1);
+	color: #fff;
+}
+
+.bgSecondary {
+	background: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+.bgPrimary a {
+	color: rgba(255, 255, 255, 1);
+	font-weight: inherit;
+}
+
+.bgPrimary a:hover {
+	text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------------
+	FOOTER
+----------------------------------------------------------------------------*/
+footer {
+	background: #ccc url("../img/cavatappo_schiefertafel_quer_web.jpg");
+	color: #fff;
+	padding: 20px 0;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer address span.title {
+	font-weight: bolder;
+	color: #fff;
+}
+
+footer span.wineClaim {
+	font-size: 80%;
+}
+
+@media (min-width: 40em) and (min-width: 64em) {
+	.grapevineLeft
+	.grapevineRight {
+		display: none;
+	}
+}
