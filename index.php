@@ -34,10 +34,13 @@
 <section class="intro bgSecondary">
 	<div class="grid-container grid-x grid-padding-x">
 		<div class="small-12 cell">
-			<h3 class="text-center">Bericht zur Eröffnung</h3>
-			<p>«Nur schon die Einrichtung des kleinen aber feinen Weinladens ist einen Besuch wert» <a href="http://www.winterthurer-zeitung.ch/lifestyle/detail/article/der-neue-weinladen-in-winterthur-00121500/">- Winterthurer Zeitung, 30.08.2017</a></p>
+			<div class="grid-x align-center">
+				<div class="small-10 medium-6 large-6 cell">
+					<h3 class="text-center">Bericht zur Eröffnung</h3>
+					<p class="text-center">«Nur schon die Einrichtung des kleinen aber feinen Weinladens ist einen Besuch wert» <a href="http://www.winterthurer-zeitung.ch/lifestyle/detail/article/der-neue-weinladen-in-winterthur-00121500/">- Winterthurer Zeitung, 30.08.2017</a></p>
+				</div>
+			</div>
 		</div>
-		
 	</div>
 </section>
 <!-- Inlcuding the Events from Template -->
@@ -74,7 +77,7 @@ foreach ($events as $event) { ?>
 			<div class="grid-x align-center">
 				<div class="small-10 medium-6 large-6 cell">
 					<h3 class="text-center">Der Weinladen in Winterthur</h3>					
-			<p class="text-center">Cavatappo ist der neue Weinshop beim Fotozentrum. Mit Weinen von Angela Bruderer.</p>
+					<p class="text-center">Cavatappo ist der neue Weinshop beim Fotozentrum. Mit Weinen von Angela Bruderer.</p>
 				</div>
 			</div>
 		</div>
