@@ -54,17 +54,22 @@ foreach ($events as $event) { ?>
 <section class="events bgPrimary">
 	<div class="grid-container grid-x">
 		<div class="small-12 cell">
-			<div class="grid-x align-center">
-				<div class="small-10 medium-6 large-6 cell">
-					<h3 class="text-center">
-						<?php if ($event['flag'] !== "") {echo "<img class=\"flags\" src=\"../img/flags/{$event['flag']}.png\">";} ?>
-						<?php echo $event['titel'] ?>
-					</h3>				
-			<h4><?php echo $event['time'] ?></h4>
-			<p><?php if ($event['image'] !== "") {echo "<img class=\"eventImage\" src=\"../img/events/{$event['image']}\">";} ?><?php echo $event['description'] ?></p>
-			<h4>Anmeldung</h4>
-			<p>Unser kleiner aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von 25 Franken pro Person.</p>
+			<div class="grid-x grid-padding-x">
+				<div class="flags small-12 medium-3 large-2 cell">
+					<?php if ($event['flag'] !== "") {echo "<img src=\"../img/flags/{$event['flag']}\">";} ?>
 				</div>
+				<div class="small-12 medium-9 large-6 cell">
+					<h3><?php echo $event['titel'] ?></h3>				
+					<h4><?php echo $event['time'] ?></h4>
+					<p><?php echo $event['description'] ?></p>
+					<h4>Anmeldung</h4>
+					<p>Unser kleiner aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von 25 Franken pro Person.</p>
+				</div>
+				<?php if ($event['image'] !== "") { ?>
+					<div class="eventImage small-12 medium-12 large-4 cell">
+						<img class="" src="../img/events/<?= $event['image'] ?> ">
+					</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>

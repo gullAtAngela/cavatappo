@@ -1,5 +1,5 @@
 <!-- Event no1 -->
-<section class="events bgPrimary">
+<section class="events">
 	<div class="grid-container grid-x">
 		<div class="small-12 cell">
 			<div class="grid-x align-center">
@@ -19,7 +19,7 @@
 </section>
 
 <!-- Event no2 -->
-<section class="events bgPrimary">
+<section class="events">
 	<div class="grid-container grid-x">
 		<div class="small-12 cell">
 			<div class="grid-x align-center">
@@ -39,7 +39,7 @@
 </section>
 
 <!-- Event no3 -->
-<section class="events bgPrimary">
+<section class="events">
 	<div class="grid-container grid-x">
 		<div class="small-12 cell">
 			<div class="grid-x align-center">

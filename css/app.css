@@ -74,14 +74,9 @@ h1 {
 	left: 0;
 }
 
-.flags {
-	height: 45px;
-	margin-right: 2%;	
-}
-
-.eventImage {
-	float: right;
-    padding: 8px 0 8px 12px;
+.eventImage img {
+	display: block;
+	margin: 0 auto;
 }
 
 /*@media print, screen and (min-width: 40em) {
@@ -121,7 +116,10 @@ section {
 }
 section.intro {}
 section.opening {}
-section.events {}
+section.events {
+	background: #ccc url("../img/cavatappo_schiefertafel_quer_web.jpg");
+	color: #fff;
+}
 
 
 
@@ -175,5 +173,12 @@ footer span.wineClaim {
 	.grapevineLeft
 	.grapevineRight {
 		display: none;
+	}
+}
+
+@media (max-width: 40em) {
+	.flags img {
+		display: block;
+		margin: 0 auto 4% auto;
 	}
 }
