@@ -5,7 +5,6 @@
 </head>
 <body>
 <?php include_once 'header.php'; ?>
-
 <section class="intro bgSecondary">
 	<div class="grid-container grid-x grid-padding-x">
 		<div class="small-12 cell">
@@ -30,7 +29,6 @@
 		</div>
 	</div>
 </section>
-
 <section class="intro bgSecondary">
 	<div class="grid-container grid-x grid-padding-x">
 		<div class="small-12 cell">
@@ -44,38 +42,9 @@
 	</div>
 </section>
 <!-- Inlcuding the Events from Template -->
-<?php include 'events/parameter.php' ;?>
-<?php //include 'events/events.php' ;?>
-
-<!-- Iterating through the Events from Template -->
-<?php
-foreach ($events as $event) { ?>
-
-<section class="events bgPrimary">
-	<div class="grid-container grid-x">
-		<div class="small-12 cell">
-			<div class="grid-x grid-padding-x">
-				<div class="flags small-12 medium-3 large-2 cell">
-					<?php if ($event['flag'] !== "") {echo "<img src=\"../img/flags/{$event['flag']}\">";} ?>
-				</div>
-				<div class="small-12 medium-9 large-6 cell">
-					<h3><?php echo $event['titel'] ?></h3>				
-					<h4><?php echo $event['time'] ?></h4>
-					<p><?php echo $event['description'] ?></p>
-					<h4>Anmeldung</h4>
-					<p>Unser kleiner aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von 25 Franken pro Person.</p>
-				</div>
-				<?php if ($event['image'] !== "") { ?>
-					<div class="eventImage small-12 medium-12 large-4 cell">
-						<img class="" src="../img/events/<?= $event['image'] ?> ">
-					</div>
-				<?php } ?>
-			</div>
-		</div>
-	</div>
-</section>
-<?php }
-?>
+<?php include 'events/parameter.php' ;
+	include 'events/events.php' ;?>
+	
 <section class="intro bgSecondary">
 	<div class="grid-container grid-x">
 		<div class="small-12 cell">
@@ -88,7 +57,7 @@ foreach ($events as $event) { ?>
 		</div>
 	</div>
 </section>
-
+<!-- End Events -->
 <section class="bgSecondary">
 	<!-- <div class="grapevineRight"></div> -->
 	<div class="grid-container grid-x grid-padding-x">
