@@ -44,6 +44,7 @@
 <!-- Inlcuding the Events from Template -->
 <?php include 'events/parameter.php' ;
 	include 'events/events.php' ;?>
+<!-- End Events -->
 	
 <section class="intro bgSecondary">
 	<div class="grid-container grid-x">
@@ -57,7 +58,6 @@
 		</div>
 	</div>
 </section>
-<!-- End Events -->
 <section class="bgSecondary">
 	<!-- <div class="grapevineRight"></div> -->
 	<div class="grid-container grid-x grid-padding-x">

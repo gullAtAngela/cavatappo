@@ -16,7 +16,7 @@ $events['1'] = array(
 	"leftImage" => "italy.png",
 	"registrationDate" => "30. November 2017",
 	"rightImage" => "wine.png",
-	"publishedUntil" => "30.11.2017"
+	"publishedUntil" => "2017-11-30"
 );
 $events['2'] = array(
 	"id" => "2",
@@ -26,15 +26,15 @@ $events['2'] = array(
 	"leftImage" => "pilgrim.png",
 	"registrationDate" => "14. Dezember 2017",
 	"rightImage" => "",
-	"publishedUntil" => "14.12.2017"
+	"publishedUntil" => "2017-12-06"
 );
 $events['3'] = array(
 	"id" => "3",
 	"titel" => "Neuer Event",
 	"time" => "Herzliche Einladung zur Degustation am Donnerstag, 21.&nbsp;12.&nbsp;2017, 19 bis 21&nbsp;Uhr",
 	"description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere soluta, totam nihil minima, recusandae sapiente saepe provident ullam itaque nemo, beatae minus ratione asperiores aliquid vitae, debitis sint laudantium. Atque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita atque ullam tempora harum temporibus unde nam aliquam velit iste, sequi aliquid et ut quo soluta fuga, recusandae corporis error.",
-	"leftImage" => "switzerland.png",
+	"leftImage" => "flagge_350.png",
 	"registrationDate" => "29. Oktober 2018",
-	"rightImage" => "wine.png",
-	"publishedUntil" => "04.12.2017"
+	"rightImage" => "flasche_350.png",
+	"publishedUntil" => "2017-12-06"
 );

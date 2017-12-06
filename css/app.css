@@ -51,6 +51,10 @@ h1 {
 	font-size: 1.9375rem;
 }
 
+h6 {
+	margin: 0;
+}
+
 .grapevineRight {
 	width: 50%;
 	height: 50%;

@@ -1,11 +1,9 @@
 <!-- Iterating through the Events from Template -->
 <?php
 // Setting up time for disable the event
-$time = '16:17:00';
-echo date('d.m.Y h:i:s');
+$time = '17:00:00';
 foreach ($events as $event) {
-	echo $event['publishedUntil'];
-	if ($event['publishedUntil'] . " " . $time >= date('d.m.Y G:i:s')) { ?>
+	if (strtotime($event['publishedUntil'] . " " . $time) >= strtotime(date('Y-m-d G:i:s'))) { ?>
 		<section class="events bgPrimary">
 			<div class="grid-container grid-x">
 				<div class="small-12 cell">
@@ -15,9 +13,9 @@ foreach ($events as $event) {
 						</div>
 						<div class="small-12 medium-9 large-6 cell">
 							<h3><?php echo $event['titel'] ?></h3>				
-							<h4><?php echo $event['time'] ?></h4>
+							<h5><?php echo $event['time'] ?></h5>
 							<p><?php echo $event['description'] ?></p>
-							<h4>Anmeldung</h4>
+							<h6>Anmeldung</h6>
 							<p>Unser kleiner aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von 25 Franken pro Person.</p>
 						</div>
 						<?php if ($event['rightImage'] !== "") { ?>
