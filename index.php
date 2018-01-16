@@ -58,6 +58,19 @@
 		</div>
 	</div>
 </section>
+<section class="intro bgPrimary" id="signupEvent">
+	<div class="grid-container grid-x">
+		<div class="small-12 cell">
+			<div class="grid-x align-center">
+				<div class="small-10 medium-6 large-6 cell">
+					<h3 class="text-center">Anmeldung zum Event</h3>					
+					<p class="text-center">Sie können sich hierüber direkt zu einem der aktuellen Events anmelden.</p>
+					<?php include_once 'signup.php' ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="bgSecondary">
 	<!-- <div class="grapevineRight"></div> -->
 	<div class="grid-container grid-x grid-padding-x">
