@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php date_default_timezone_set('Europe/Zurich');
 require_once 'css/stylesheet.php';
+include 'universal/util.inc.php';
 include 'universal/init.inc.php'; ?>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
