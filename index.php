@@ -17,13 +17,13 @@
 		<div class="small-12 cell">
 			<div class="grid-container grid-x grid-padding-x">
 				<div class="small-12 medium-4 large-4 cell">
-					<img class="thumbnail" src="img/gallery/aussenansicht.jpg" alt="Aussenansicht von Cavatappo" title="Aussenansicht von Cavatappo">
+					<img class="thumbnail" src="img/gallery/fragolinoErdbeere.jpg" alt="Fragolino unser Erdbeer Wein" title="Fragolino unser Erdbeer Wein">
 				</div>
 				<div class="small-12 medium-4 large-4 cell">
-					<img class="thumbnail" src="img/gallery/innenansicht.jpg" alt="Innenansicht von Cavatappo" title="Innenansicht von Cavatappo">
+					<img class="thumbnail" src="img/gallery/sitzeckeInnenansicht.jpg" alt="Innenansicht mit gemütlicher Degustations-Ecke im Cavatappo" title="Innenansicht mit gemütlicher Degustations-Ecke im Cavatappo">
 				</div>
 				<div class="small-12 medium-4 large-4 cell">
-					<img class="thumbnail" src="img/gallery/dopiopasso.jpg" alt="Unser Bestseller aus dem Wein-Sortiment" title="Unser Bestseller aus dem Wein-Sortiment">
+					<img class="thumbnail" src="img/gallery/sinceMitKuchen.jpg" alt="Prosecco Since passt zu jedem Törtchen." title="Prosecco Since passt zu jedem Törtchen.">
 				</div>
 			</div>
 		</div>
@@ -54,6 +54,20 @@
 					<h3 class="text-center">Der Weinladen in Winterthur</h3>					
 					<p class="text-center">Cavatappo ist der neue Weinshop beim Fotozentrum. Mit Weinen von Angela Bruderer.</p>
 				</div>
+			</div>
+		</div>
+		<div class="grid-container grid-x grid-padding-x">
+			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/innenansichtEingang.jpg" alt="Ladeninnenansicht zum Eingangsbereich." title="Ladeninnenansicht zum Eingangsbereich.">
+			</div>
+			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/spirituosen.jpg" alt="Wir haben auch auserwählte Spirituosen." title="Wir haben auch auserwählte Spirituosen.">
+			</div>
+			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/sinceMitTomaten.jpg" alt="Prosecco Since passt zu jedem Törtchen." title="Prosecco Since passt zu jedem Törtchen.">
+			</div>
+			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/jochen.jpg" alt="Jeder Kunde wird bei uns individuell bedient." title="Jeder Kunde wird bei uns individuell bedient.">
 			</div>
 		</div>
 	</div>
