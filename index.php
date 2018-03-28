@@ -67,7 +67,13 @@
 				<img class="thumbnail" src="img/gallery/sinceMitTomaten.jpg" alt="Prosecco Since passt zu jedem Törtchen." title="Prosecco Since passt zu jedem Törtchen.">
 			</div>
 			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/fleurDuVent.jpg" alt="Fleur du Vent IGP de l’Hérault Blanc, Weisswein" title="Fleur du Vent IGP de l’Hérault Blanc, Weisswein">
+			</div>
+			<div class="small-12 medium-4 large-4 cell">
 				<img class="thumbnail" src="img/gallery/jochen.jpg" alt="Jeder Kunde wird bei uns individuell bedient." title="Jeder Kunde wird bei uns individuell bedient.">
+			</div>
+			<div class="small-12 medium-4 large-4 cell">
+				<img class="thumbnail" src="img/gallery/luxury.jpg" alt="Prosecco DOC Brut Sottomarka" title="Prosecco DOC Brut Sottomarka">
 			</div>
 		</div>
 	</div>
