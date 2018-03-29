@@ -445,6 +445,7 @@ body {
   padding: 0;
   /*background: #fefefe;*/
   background: url("../img/holz.jpg");
+  background-attachment: fixed;
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
