@@ -9,7 +9,7 @@ foreach ($events as $event) {
 				<div class="small-12 cell">
 					<div class="grid-x grid-padding-x">
 						<div class="flags small-12 medium-3 large-3 cell">
-							<?php if ($event['leftImage'] !== "") {echo "<img src=\"../img/flags/{$event['leftImage']}\">";} ?>
+							<?php if ($event['leftImage'] !== "") {echo "<img src=\"img/flags/{$event['leftImage']}\">";} ?>
 						</div>
 						<div class="small-12 medium-9 large-6 cell">
 							<h3><?php echo $event['titel'] ?></h3>				
@@ -20,7 +20,7 @@ foreach ($events as $event) {
 						</div>
 						<?php if ($event['rightImage'] !== "") { ?>
 							<div class="eventImage small-12 medium-12 large-3 cell">
-								<img class="" src="../img/events/<?= $event['rightImage'] ?> ">
+								<img class="" src="img/events/<?= $event['rightImage'] ?> ">
 							</div>
 						<?php } ?>
 					</div>
