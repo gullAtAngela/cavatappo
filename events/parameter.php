@@ -35,12 +35,12 @@ $events = array();
 $events['1'] = array(
 	"id" => "1",
 	"titel" => "Amarone Night",
-	"time" => "Herzliche Einladung zur Degustation am Donnerstag, 07.&nbsp;12.&nbsp;2017, 19 bis 21&nbsp;Uhr",
-	"description" => "Der Amarone stammt aus der italienischen Region Venetien, genauer gesagt aus dem Valpolicella, in unmittelbarer Nähe zum Gardasee. Er ist einer der wertvollsten Weine Italiens, reich an vielfältigen und samtigen Aromen und wunderbaren Duftnoten, welche das Herz eines jeden Weinliebhabers höher schlagen lässt. Wir laden Sie herzlich ein zu einer Degustation erlesener Weine aus dem Amarone-Gebiet!",
+	"time" => "Herzliche Einladung zur Degustation am Donnerstag, 26.&nbsp;04.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+	"description" => "Der Amarone stammt aus der italienischen Region Venetien, genauer gesagt aus dem Valpolicella, in unmittelbarer Nähe zum Gardasee. Er ist einer der wertvollsten Weine Italiens, reich an vielfältigen und samtigen Aromen und wunderbaren Duftnoten, welche das Herz eines jeden Weinliebhabers höher schlagen lässt. Wir laden Sie herzlich ein zu einer Degustation erlesener Weine aus dem Amarone-Gebiet! Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation, entführt uns nach Venetien, das Anbaugebiet der grossen Amarone-Weine. Kulinarische Köstlichkeiten aus dem Veneto werden den Abend abrunden. Wir freuen uns sehr, gemeinsam mit Ihnen die samtigen Aromen und Noten dieser edlen Tropfen zu entdecken.",
 	"leftImage" => "flagge_italien.png",
-	"registrationDate" => "30. November 2017",
-	"rightImage" => "italienische_flasche.png",
-	"publishedUntil" => "2017-11-30"
+	"registrationDate" => "21. April 2018",
+	"rightImage" => "flasche_amarone_night.png",
+	"publishedUntil" => "2018-04-21"
 );
 $events['2'] = array(
 	"id" => "2",
@@ -51,14 +51,4 @@ $events['2'] = array(
 	"registrationDate" => "14. Dezember 2017",
 	"rightImage" => "",
 	"publishedUntil" => "2017-12-14"
-);
-$events['3'] = array(
-	"id" => "3",
-	"titel" => "Neuer Event",
-	"time" => "Herzliche Einladung zur Degustation am Donnerstag, 21.&nbsp;12.&nbsp;2017, 19 bis 21&nbsp;Uhr",
-	"description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere soluta, totam nihil minima, recusandae sapiente saepe provident ullam itaque nemo, beatae minus ratione asperiores aliquid vitae, debitis sint laudantium. Atque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita atque ullam tempora harum temporibus unde nam aliquam velit iste, sequi aliquid et ut quo soluta fuga, recusandae corporis error.",
-	"leftImage" => "flagge_italien.png",
-	"registrationDate" => "29. Oktober 2018",
-	"rightImage" => "italienische_flasche.png",
-	"publishedUntil" => "2017-12-07"
 );
