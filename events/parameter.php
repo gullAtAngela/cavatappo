@@ -52,3 +52,14 @@ $events['2'] = array(
 	"rightImage" => "",
 	"publishedUntil" => "2017-12-14"
 );
+$events['3'] = array(
+  "id" => "3",
+  "titel" => "Italienische Trendweine",
+  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 24.&nbsp;05.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Dolce vita! Italien ist bekannt für fantastisches Essen, seine Kunst, den Sinn für die Schönheit und besonders auch für seine herausragenden Weine. Wir laden Sie herzlich ein zu einer exklusiven Degustation moderner italienischer Weine! 
+  Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation, entführt uns in die Welt junger, renommierter Weinbauern aus den Anbaugebieten Abruzzen, Benevent und Molise. Entsprechende Köstlichkeiten der Regionen werden den Abend abrunden. Wir freuen uns, schon bald gemeinsam mit Ihnen in die Schönheiten Italiens eintauchen zu können.",
+  "leftImage" => "flagge_italien.png",
+  "registrationDate" => "18. Mai 2018",
+  "rightImage" => "flasche_italienische_trendweine.png",
+  "publishedUntil" => "2018-05-18"
+);
