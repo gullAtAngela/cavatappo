@@ -55,7 +55,7 @@ $events['2'] = array(
 $events['3'] = array(
   "id" => "3",
   "titel" => "Italienische Trendweine",
-  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 24.&nbsp;05.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 24.&nbsp;5.&nbsp;2018, 19 bis 21&nbsp;Uhr",
   "description" => "Dolce vita! Italien ist bekannt für fantastisches Essen, seine Kunst, den Sinn für die Schönheit und besonders auch für seine herausragenden Weine. Wir laden Sie herzlich ein zu einer exklusiven Degustation moderner italienischer Weine! 
   Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation, entführt uns in die Welt junger, renommierter Weinbauern aus den Anbaugebieten Abruzzen, Benevent und Molise. Entsprechende Köstlichkeiten der Regionen werden den Abend abrunden. Wir freuen uns, schon bald gemeinsam mit Ihnen in die Schönheiten Italiens eintauchen zu können.",
   "leftImage" => "flagge_italien.png",
@@ -65,9 +65,10 @@ $events['3'] = array(
 );
 $events['4'] = array(
   "id" => "4",
-  "titel" => "Die \"Amarone\" des Südens",
-  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 21.&nbsp;06.&nbsp;2018, 19 bis 21&nbsp;Uhr",
-  "description" => "Primitivo und Negroamaro werden oft als die Amarone des Südens bezeichnet. Diese körperreichen, kräftigen, aber doch ausgewogenen Weine liegen voll im Trend und gehören auch bei uns zu den absoluten Bestsellern. Tauchen Sie mit uns ein in die Welt dieser wunderbaren Weine und geniessen Sie ein Stück Italianità. Wir laden Sie herzlich ein zu einer Degustation erlesener süditalienischer Weine. Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation, entführt uns in die Welt junger, renommierter Weinbauern aus den Anbaugebieten Abruzzen, Benevent und Molise. Entsprechende Köstlichkeiten der Regionen werden den Abend abrunden. Wir freuen uns, schon bald gemeinsam mit Ihnen in die Schönheiten Italiens eintauchen zu können.",
+  "titel" => "Die «Amarone» des Südens",
+  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 21.&nbsp;6.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Primitivo und Negroamaro werden oft als die Amarone des Südens bezeichnet. Diese körperreichen, kräftigen, aber doch ausgewogenen Weine liegen voll im Trend und gehören auch bei uns zu den absoluten Bestsellern. Tauchen Sie mit uns ein in die Welt dieser wunderbaren Weine und geniessen Sie ein Stück Italianità. Wir laden Sie herzlich ein zu einer Degustation erlesener süditalienischer Weine.
+	<br><br>Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation, entführt uns in die Welt junger, renommierter Weinbauern aus den Anbaugebieten Abruzzen, Benevent und Molise. Entsprechende Köstlichkeiten der Regionen werden den Abend abrunden. Wir freuen uns, schon bald gemeinsam mit Ihnen in die Schönheiten Italiens eintauchen zu können.",
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "15. Juni 2018",
   "rightImage" => "flasche_amarone_des_suedens.png",
