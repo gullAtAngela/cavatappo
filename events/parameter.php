@@ -32,6 +32,17 @@
   */
 
 $events = array();
+$events['5'] = array(
+  "id" => "5",
+  "titel" => "Gito d'Italia",
+  "time" => "Herzliche Einladung zur Degustation am Donnerstag,30.&nbsp;8.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Dolce Vita! Italien ist bekannt für fantastisches Essen, seine Kunst, den Sinn für Schönheit und besonders auch für seine herausragenden Weine. Machen Sie mit uns eine «kleine Rundreise» durch Italien und entdecken Sie den einen oder anderen Schatz aus unserem Weinkeller. Daneben verwöhnen wir Sie mit ein paar kulinarischen Köstlichkeiten des Südens. Gerne laden wir Sie ein zu einer exklusiven Degustation schöner italienischer Weine!
+    <br><br>Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter Generation führt uns durch einige angesagte Anbaugebiete unseres südlichen Nachbarn. Erfahren Sie mehr über die Herkunft, die Geschichte und die Produktion unserer Weine und über die Leidenschaft, die in diesen edlen Tropfen steckt.",
+  "leftImage" => "flagge_italien.png",
+  "registrationDate" => "24. August 2018",
+  "rightImage" => "flasche_giro_d_italia_350.png",
+  "publishedUntil" => "2018-08-24"
+);
 $events['4'] = array(
   "id" => "4",
   "titel" => "Die «Amarone» des Südens",
