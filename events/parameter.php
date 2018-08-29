@@ -30,8 +30,24 @@
   * publishedUntil: Hier bitte ein Datum eintragen wie lange der Event
   	aufgeschaltet sein soll. Das Datum bitte im ISO-Format YYYY-MM-DD schreiben.
   */
-
 $events = array();
+$events['6'] = array(
+  "id" => "6",
+  "titel" => "Weine, Häppchen und Musik",
+  "time" => "Herzliche Einladung zu Wein, Klang und Gesang am Donnerstag, 13.&nbsp;9.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Mit erlesenen Tropfen aus Frankreich, Spanien und Italien
+und dazu passenden Köstlichkeiten entführen wir Sie in
+die schönsten Weinregionen und Rebberge Europas.
+    <br><br>Zwei hochkarätige Musikerinnen, Christelle Pechin an der
+Harfe / Gesang und Tabea Kämpf an der Bratsche, werden uns
+zwischen den Degustationsgängen musikalisch Gutes tun.
+Wir freuen uns auf Sie und auf die gemeinsame
+önologische, kulinarische und musikalische Reise.",
+  "leftImage" => "",
+  "registrationDate" => "6. September 2018",
+  "rightImage" => "",
+  "publishedUntil" => "2018-09-06"
+);
 $events['5'] = array(
   "id" => "5",
   "titel" => "Gito d'Italia",
