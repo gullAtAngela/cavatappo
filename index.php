@@ -87,9 +87,9 @@
 					<h5>Öffnungszeiten</h5>
 					<p>DI-FR 14:00-18:30 Uhr<br>
 					SA 10:00-16:00 Uhr</p>
-					<h5>Sonderöffnungszeiten</h5>
+					<!-- <h5>Sonderöffnungszeiten</h5>
 					<p>DI. 31. Juli und MI. 1. August geschlossen</p>
-					<p>FR. 24. August geschlossen aufgrund Betriebsausflug</p>
+					<p>FR. 24. August geschlossen aufgrund Betriebsausflug</p> -->
 				</div>
 				<div class="small-12 medium-6 large-12 cell">
 					<h5>Kontakt</h5>
