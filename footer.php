@@ -19,7 +19,11 @@
 							</address>
 						</div>
 					</div>
-					<div class="small-12 medium-3 large-4 cell">
+					<div class="small-12 medium-3 large-4 cell align-bottom">
+						<ul class="footerLinks no-bullet">
+							<li><a href="https://www.angela-bruderer.ch/impressum">Impressum</a></li>
+							<li><a href="https://www.angela-bruderer.ch/datenschutz">Datenschutz</a></li>
+						</ul>
 					</div>
 					<div class="small-12 medium-3 large-3 cell">
 						<!-- <span class="wineClaim">Weine von Angela Bruderer</span>
