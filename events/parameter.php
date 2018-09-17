@@ -30,7 +30,27 @@
   * publishedUntil: Hier bitte ein Datum eintragen wie lange der Event
   	aufgeschaltet sein soll. Das Datum bitte im ISO-Format YYYY-MM-DD schreiben.
   */
+
 $events = array();
+$events['7'] = array(
+  "id" => "7",
+  "titel" => "Nacht der italienischen Trendweine",
+  "time" => "Herzliche Einladung zur Degustation am Donnerstag, 27.&nbsp;9.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Dolce vita! Italien ist bekannt für fantastisches Essen, seine
+Kunst, den Sinn für die Schönheit und besonders auch für seine
+herausragenden Weine. Wir laden Sie herzlich ein zu einer
+exklusiven Degustation moderner italienischer Weine!<br><br> 
+  Claudio Pavin, Weinproduzent aus Leidenschaft in zweiter
+Generation, entführt uns in die Welt junger, renommierter Weinbauern
+aus den Anbaugebieten Abruzzen, Benevent und Molise.
+Entsprechende Köstlichkeiten der Regionen werden den Abend
+abrunden. Wir freuen uns, schon bald gemeinsam mit Ihnen in
+die Schönheiten Italiens eintauchen zu können.",
+  "leftImage" => "flagge_italien.png",
+  "registrationDate" => "25. September 2018",
+  "rightImage" => "flasche_italienische_trendweine_350.png",
+  "publishedUntil" => "2018-09-25"
+);
 $events['6'] = array(
   "id" => "6",
   "titel" => "Weine, Häppchen und Musik",
