@@ -32,6 +32,23 @@
   */
 
 $events = array();
+$events['8'] = array(
+  "id" => "8",
+  "titel" => "Weine, Häppchen und Musik",
+  "time" => "Herzliche Einladung zu Wein, Klang und Gesang am Donnerstag, 25.&nbsp;10.&nbsp;2018, 19 bis 21&nbsp;Uhr",
+  "description" => "Mit erlesenen Tropfen aus Frankreich, Spanien und Italien
+und dazu passenden Köstlichkeiten entführen wir Sie in
+die schönsten Weinregionen und Rebberge Europas..
+    <br><br>Zwei hochkarätige Musikerinnen, Christelle Pechin an der
+Harfe / Gesang und Tabea Kämpf an der Bratsche, werden uns
+zwischen den Degustationsgängen musikalisch Gutes tun.
+Wir freuen uns auf Sie und auf die gemeinsame
+önologische, kulinarische und musikalische Reise.",
+  "leftImage" => "",
+  "registrationDate" => "21. Oktober 2018",
+  "rightImage" => "flasche_musik_und_wein_350.png",
+  "publishedUntil" => "2018-10-21"
+);
 $events['7'] = array(
   "id" => "7",
   "titel" => "Nacht der italienischen Trendweine",
