@@ -47,7 +47,8 @@ Wir freuen uns auf Sie und auf die gemeinsame
   "leftImage" => "",
   "registrationDate" => "21. Oktober 2018",
   "rightImage" => "flasche_musik_und_wein_350.png",
-  "publishedUntil" => "2018-10-21"
+  "publishedUntil" => "2018-10-21",
+  "price" => "35"
 );
 $events['7'] = array(
   "id" => "7",
@@ -66,7 +67,8 @@ die Schönheiten Italiens eintauchen zu können.",
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "25. September 2018",
   "rightImage" => "flasche_italienische_trendweine_350.png",
-  "publishedUntil" => "2018-09-25"
+  "publishedUntil" => "2018-09-25",
+  "price" => "25"
 );
 $events['6'] = array(
   "id" => "6",
@@ -83,7 +85,8 @@ Wir freuen uns auf Sie und auf die gemeinsame
   "leftImage" => "",
   "registrationDate" => "6. September 2018",
   "rightImage" => "",
-  "publishedUntil" => "2018-09-06"
+  "publishedUntil" => "2018-09-06",
+  "price" => "35"
 );
 $events['5'] = array(
   "id" => "5",
@@ -94,7 +97,8 @@ $events['5'] = array(
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "24. August 2018",
   "rightImage" => "flasche_giro_d_italia_350.png",
-  "publishedUntil" => "2018-08-24"
+  "publishedUntil" => "2018-08-24",
+  "price" => "25"
 );
 $events['4'] = array(
   "id" => "4",
@@ -105,7 +109,8 @@ $events['4'] = array(
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "15. Juni 2018",
   "rightImage" => "flasche_amarone_des_suedens.png",
-  "publishedUntil" => "2018-06-15"
+  "publishedUntil" => "2018-06-15",
+  "price" => "25"
 );
 $events['3'] = array(
   "id" => "3",
@@ -116,7 +121,8 @@ $events['3'] = array(
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "18. Mai 2018",
   "rightImage" => "flasche_italienische_trendweine.png",
-  "publishedUntil" => "2018-05-18"
+  "publishedUntil" => "2018-05-18",
+  "price" => "25"
 );
 $events['2'] = array(
   "id" => "2",
@@ -126,7 +132,8 @@ $events['2'] = array(
   "leftImage" => "pilgrim.png",
   "registrationDate" => "14. Dezember 2017",
   "rightImage" => "",
-  "publishedUntil" => "2017-12-14"
+  "publishedUntil" => "2017-12-14",
+  "price" => "25"
 );
 $events['1'] = array(
   "id" => "1",
@@ -136,5 +143,6 @@ $events['1'] = array(
   "leftImage" => "flagge_italien.png",
   "registrationDate" => "21. April 2018",
   "rightImage" => "flasche_amarone_night.png",
-  "publishedUntil" => "2018-04-21"
+  "publishedUntil" => "2018-04-21",
+  "price" => "25"
 );

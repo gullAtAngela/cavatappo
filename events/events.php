@@ -16,7 +16,7 @@ foreach ($events as $event) {
 							<h5><?php echo $event['time'] ?></h5>
 							<p><?php echo $event['description'] ?></p>
 							<h6>Anmeldung</h6>
-							<p>Unser Kleiner, aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von 25 Franken pro Person.</p>
+							<p>Unser Kleiner, aber feiner Weinladen bietet Platz für 20 Personen. Bitte senden Sie Ihre Anmeldung bis zum <?php echo $event['registrationDate'] ?> an <a href="mailto:info@cavatappo.ch">info@cavatappo.ch</a>. Für die Verköstigung verrechnen wir einen kleinen Beitrag von <?php echo $event['price'] ?> Franken pro Person.</p>
 						</div>
 						<?php if ($event['rightImage'] !== "") { ?>
 							<div class="eventImage small-12 medium-12 large-3 cell">
